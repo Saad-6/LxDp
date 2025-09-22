@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LxDp.Application\LxDp.Application.csproj" />
+    <ProjectReference Include="..\LxDp.Infrastructure\LxDp.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
