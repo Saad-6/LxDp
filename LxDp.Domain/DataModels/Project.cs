@@ -6,6 +6,7 @@ public class Project : Base
     public string PublishFolder { get; set; }
     public string RootDirectory { get; set; }
     public ProjectConfiguration Configuration { get; set; }
+    public int ServerId { get; set; }
     public List<Script> Scripts { get; set; } = new List<Script>();
    
 }

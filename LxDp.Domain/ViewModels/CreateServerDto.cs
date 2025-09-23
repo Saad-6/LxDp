@@ -4,6 +4,7 @@ namespace LxDp.Domain.ViewModels;
 
 public class CreateServerDto
 {
+    public int? Id { get; set; } 
     public string ServerName { get; set; }
     public string ServerIp { get; set; }
     public int? ServerPort { get; set; }

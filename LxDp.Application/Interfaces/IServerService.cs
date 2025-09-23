@@ -5,6 +5,7 @@ namespace LxDp.Application.Interfaces;
 
 public interface IServerService
 {
+    Task<ServerCredentials> GetServerCredentialsAsync(int serverId);
     Task<Response<ServerViewModel>> GetServerByIdAsync(int id);
     Task<Response<ServerViewModel>> CreateServerAsync(CreateServerDto request);
     Task<Response<ServerViewModel>> UpdateServerAsync(CreateServerDto request);
